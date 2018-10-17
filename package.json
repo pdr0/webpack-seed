@@ -1,0 +1,73 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A light foundation for your next frontend project based on webpack.",
+  "keywords": [
+    "es6",
+    "frontend",
+    "javascript",
+    "startkit",
+    "webdev",
+    "webpack"
+  ],
+  "homepage": "https://github.com/wbkd/webpack-starter#readme",
+  "bugs": {
+    "url": "https://github.com/wbkd/webpack-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbkd/webpack-starter.git"
+  },
+  "license": "MIT",
+  "author": "webkid.io",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.prod.js  --colors",
+    "dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "semi": 2
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-jest": "^21.25.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
