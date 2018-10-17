@@ -1,4 +1,6 @@
-# Webpack Frontend Starterkit
+# Webpack Seed
+
+
 
 A lightweight foundation for your next webpack based frontend project.
 
